@@ -1,0 +1,228 @@
+/*Importation de la police pour les titre H1*/
+@font-face {
+    font-family: 'CapitolCity';
+    src: url('../fonts/capitolcity.ttf') format('truetype');
+}
+
+/*Importation de la police pour les titre H2 et des mots spécifiques*/
+@font-face {
+    font-family: 'SairaStencilOne';
+    src: url('../fonts/SairaStencilOne-Regular.ttf') format('truetype');
+}
+
+/*Importation de la police pour les paragraphes*/
+@font-face {
+    font-family: 'Audiowide';
+    src: url('../fonts/Audiowide-Regular.ttf') format('truetype');
+}
+
+/*Mise en forme et positionnement des titres H1*/
+h1{
+    font-family: 'CapitolCity';
+    font-size: 45px;
+    color:#3B3E3F;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Mise en forme des titres H2*/
+h2{
+    font-family: 'SairaStencilOne';
+    color: #0e44ad;
+    font-size: 30px;
+}
+
+/*Mise en forme des liens*/
+a{
+    color:#D64000;
+}
+
+.lien_titre{
+    color: #ffffff;
+}
+
+/*Mise en forme des paragraphes*/
+p{
+    font-family: 'Audiowide';
+    color:#3B3E3F;
+    font-size: 18px;
+}
+
+/*Mise en forme du nombre de mots dans les paragraphes*/
+.nb_mot{
+    font-family: 'SairaStencilOne';
+    color:#D64000;
+    text-align: left;
+}
+
+/*Mise en forme des éléments de la liste qui sert pour la navigation*/
+nav li{
+    color:#3B3E3F;
+    display:inline;
+    border: 2px solid #D64000;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: 'Audiowide';
+}
+
+/*Positionnement du menu de navigation*/
+nav ul{
+    list-style:none;
+    padding: 3px;
+    margin: 0px;
+}
+
+/*Positionnement du titre du menu de navigation*/
+nav h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*Positionnement du menu de navigation*/
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/*Positionnement des éléments du menu de navigation*/
+.placement_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Mise en forme du sommaire*/
+.sommaire{
+    font-family: 'Audiowide';
+    color: #3B3E3F;
+    font-size: 18px;
+}
+
+/*Mise en forme des sous titres dans le sommaire*/
+ol{
+    list-style: none;
+}
+
+/*Positionnement du tableau de la webographie*/
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Mise en forme du tableau de la webographie*/
+table{
+    border-collapse: collapse;
+    border: 2px solid #3B3E3F;
+    
+}
+
+/*Mise en forme des titres dans l'en-tête du tableau de la webographie*/
+span{
+    font-family: 'SairaStencilOne';
+    color:#ffffff;
+    font-size: 25px;
+}
+
+/*Mise en forme de l'en-tête du tableau de la webographie*/
+th {
+  border: 1px solid #3B3E3F;
+  padding: 8px 10px;
+  color: #3B3E3F;
+  background-color: #D64000;
+}
+
+/*Mise en forme des éléments des cellules du tableau de la webographie*/
+td {
+  border: 1px solid #3B3E3F;
+  padding: 8px 10px;
+  color: #3B3E3F;
+  font-family: 'Audiowide';
+  font-size: 18px;
+}
+
+/*Mise en forme et positionnement en forme des articles*/
+article{
+    text-align: center;
+    margin: auto; 
+    max-width: 950px;
+    border: 3px solid #D64000;
+    padding: 8px 10px;     
+}
+
+/*Positionnement de la première image*/
+.position_image1 {
+    display: flex;
+    align-items: center;
+    width: 1000px; 
+    gap: 50px;
+}
+
+/*Positionnement de la deuxième image*/
+.position_image2 {
+    display: flex;
+    align-items: center;
+    width: 1000px; 
+    gap: 50px;
+}
+
+/*Positionnement de la troisième image*/
+.position_image3 {
+    display: flex;
+    align-items: center;
+    width: 1000px; 
+    gap: 50px;
+}
+
+/*Mise en forme des titres des images et de la vidéo*/
+figcaption{
+    font-family: 'SairaStencilOne';
+    color: #ffffff;
+    background-color: #D64000; 
+}
+
+/*Espacement entre la bordure des articles et les images*/
+figure {
+    padding: 8px 10px;
+}
+
+/*Positionnement des éléments section*/
+section{
+    text-align: center;
+}
+
+/*Positionnement de la phrase de bienvenue dans l'index*/
+.contenue_bienvenue{
+    display: flex;
+    align-items: center;
+    width: 1800px;
+
+}
+
+/*Positionnement des sous titres des articles*/
+.sous_titre{
+    text-align: left;
+}
+
+/*Mise en forme et positionnement du pied de page*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #D64000;
+    padding: 8px 10px;
+
+}
+
+
+
